@@ -1,0 +1,146 @@
+body
+{
+ margin:0;
+ padding: 0;
+ background-color: #030A28;	
+  background-image: url('../images/back1.png');
+  background-size:cover;/*css3*/
+  overflow-x:hidden;
+}
+
+h1{
+  text-align: center;
+  margin-top: 60px;
+  font-family: arial;
+  line-height: 1em;
+  color: #3100E9;
+  text-shadow: 0 2px 0 #b24c4c,
+               0 2px 0 #b24c4c,
+               0 2px 0 #b24c4c,
+               0 2px 0 #b24c4c,
+               0 30px 5px rgb(0,0,0,1);
+ animation: animatetwo 5s linear infinite;
+}
+@keyframes animatetwo
+{
+	0%
+	{
+		transform: rotate(10deg);
+	}
+	25%
+	{
+	    transform: rotate(0deg);
+	}
+	50%
+	{
+		transform: rotate(-10deg);
+	}
+	75%
+	{
+		transform: rotate(0deg);
+	}
+	100%
+	{
+		transform: rotate(10deg);
+	}
+}
+.shadow
+{
+	position:relative;
+	margin:80px  auto 0;
+	width:400px;
+	height: auto;
+	background: linear-gradient(0deg,#000,#262626);
+}
+.shadow:before,
+.shadow:after
+{
+	content:  '';
+	position: absolute;
+	top: -2px;
+	left: -2px;
+	background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: animate 20s linear infinite;
+}
+.shadow:after
+{
+	filter:blur(10px);
+}
+@keyframes animate
+{
+	0%
+	{
+		background-position: 0 0;
+	}
+	50%
+	{
+		background-position: 250% 0;
+	}
+	100%
+	{
+		background-position: 0 0;
+	}
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+}
+.register{
+    background:none;
+    width: 400px;
+	color:#351d99;
+	font-size: 18px;
+	padding: 20px;
+	border-radius: 10px;
+ 
+}
+#register{
+	margin-left: 10px;
+}
+#name{
+	width: 250px;
+	border-radius: 3px;
+	padding: 7px;
+}
+#ph {
+  width: 65px;
+  padding: 7px;
+  border-radius: 3px;
+}
+#num{
+	width: 220px;
+	padding: 7px;
+	border-radius: 3px;
+}
+#sub{
+	width: 200px;
+	padding: 7px;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-style: italic;
+	font-weight: 600;
+	border-radius: 3px;
+}
+span{
+	color: red;
+	width: : 600px;
+}
+/*start media*/
+@media (max-width: 768px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+/*end media*/

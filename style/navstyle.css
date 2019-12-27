@@ -1,0 +1,53 @@
+
+
+/*start container*/
+.container-fluid {
+	padding-right: 20px;
+    padding-left: 50px;
+}
+.navbar{
+	background-color:rgb(99, 113, 128);
+}
+
+.nav > li > a,
+.navbar-brand 
+ { color: #44d6ca;}
+ .nav > li > a{text-decoration: underline;}
+
+
+
+
+.navbar-toggle{
+     border-color: #e7dbdb;
+     background-color: #44d6ca;
+	} 
+ .navbar-toggle .icon-bar {
+ 	    background-color: #f0fffb;
+ 	 }
+  
+  .navbar .navbar-form .form-group .fas{
+     padding-left: 5px;
+    width: 33px;
+    font-size: 18px;
+    color: aqua;
+  }
+.navbar .navbar-nav .nav-link .fas {
+	position: relative;
+	width:30px;
+	font-size: 20px;
+	top: 3px;
+}
+
+.navbar .navbar-nav .nav-link .fas .badge {
+	position: absolute;
+	font-size: 0.75rem;
+	right: -10px;
+	top:-10px;
+	background-color: #c54747;
+}
+.navbar-brand:hover,
+.navbar .navbar-nav .nav-link .fas:hover{
+	color:red;
+}
+
+/*end container*/
